@@ -1,0 +1,51 @@
+<section class="hero">
+  <div class="container">
+    <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
+    <button class="hero__button" type="button">Замовити послугу</button>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+        <button class="modal__close" type="button">
+          <svg class="icon" width="11px" height="11px">
+            <use xlink:href="./images/sprite.svg#close"></use>
+          </svg>
+        </button>
+        <h2 class="modal__title">Залиште свої дані, ми вам передзвонимо</h2>
+        <form>
+          <div class="input-wrapper">
+            <label for="name">Ім'я</label>
+            <input type="text" id="name" />
+            <i class="bx bxs-user icon"></i>
+          </div>
+          <div class="input-wrapper">
+            <label for="phone">Телефон</label>
+            <input type="tel" id="phone" />
+            <svg class="icon" width="18px" height="18px">
+              <use xlink:href="./images/sprite.svg#phone-modal"></use>
+            </svg>
+          </div>
+          <div class="input-wrapper">
+            <label for="email">Пошта</label>
+            <input type="email" id="email" />
+            <i class="bx bxs-envelope icon"></i>
+          </div>
+
+          <div class="textarea-wrapper">
+            <label for="comment">Коментар</label>
+            <textarea name="comment" id="comment" placeholder="Введіть текст">
+            </textarea>
+          </div>
+
+          <div class="checkbox-wrapper">
+            <input type="checkbox" />
+            <span
+              >Погоджуюся з розсилкою та приймаю
+              <a href="./index.html">Умови договору</a></span
+            >
+          </div>
+
+          <button type="submit">Відправити</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
